@@ -1,6 +1,11 @@
 {
     "version": 2,
-    "builds": [
+    "functions": {
+      "api/*": {
+        "runtime": "edge"
+      }
+    },
+    "builds": [s
       {
         "src": "app.py",
         "use": "@vercel/python"
